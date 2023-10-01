@@ -33,6 +33,8 @@ contract Escrow {
     }
 
     bool public inspectionPasssed = false;
+
+    
     mapping(address => bool) public approval;
 
 

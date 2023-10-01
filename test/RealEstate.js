@@ -46,6 +46,7 @@ describe("RealEstate", () => {
       .connect(seller)
       .approve(escrow.address, nftId);
     await transaction.wait();
+    console.log("Transation Has been  Approve Nicely");
   });
 
   describe("Deployment", () => {
